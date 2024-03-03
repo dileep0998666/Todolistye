@@ -34,5 +34,4 @@ def check(index):
 def delete(index):
     del todos[index]
     return redirect(url_for("index"))
-if __name__ == '__main__':
-    app.run(debug=True)
+
